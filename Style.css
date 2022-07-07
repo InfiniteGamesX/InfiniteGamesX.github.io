@@ -1,0 +1,128 @@
+header {
+    font-family: 'Karla',  sans-serif;
+    overflow-x: hidden;
+
+    color: #242424;
+}
+
+body {
+    text-align: center;
+    background: none;
+    color: #242424;
+}
+
+body .intromsg {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 40%; left: 30%;
+    margin-top: 6%;
+}
+
+body .repo {
+    display: block;
+    padding-top:10px;
+
+    font-family: "Fredoka One", sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+body{
+    background: linear-gradient(
+        to right,#833ab4, #fd1d1d, #fcb045);
+        background-size: 400% 400%;
+        animation: animate-background 10s infinite ease-in-out;
+
+}
+@keyframes animate-background {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+@media (min-width: 768px) {
+    body img {
+        max-width: 30%; left: 35%;
+        margin-top: 6%;
+    }
+    body .intromsg {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    body .repo {
+        padding-top:20px;
+        font-size: 3.4em;
+    }
+
+    body .donation {
+        padding-top: 0px;
+        font-size: 1em;
+    }
+}
+
+body .donation {
+    display: block;
+    padding-top:0px;
+    font-family: "Karla", sans-serif;
+    text-transform: none;
+    font-size: 1.2em;
+}
+
+
+body .btn{
+    padding-top:10px;
+}
+
+.btn-outline {
+    color:#a3c1d5;
+    font-size: 1.2em;
+    border: solid 1.5px #a3c1d5;
+    background: black;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    color: white;
+    background:#a3c1d5;
+    border: solid 1.5px white;
+}
+
+
+
+footer .update{
+    padding-top: 50px;
+    background-color: none;
+    height:80px;
+    text-align: center;
+}
+footer .footer-above {
+    padding-top: 30px;
+    background-color: red;
+}
+img {
+    size: 100%;
+    
+
+
+
+}
